@@ -1,0 +1,18 @@
+﻿using Blog.Core.Entities;
+using Blog.Data.Repositories.Abstractions;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Blog.Data.UnitOWorks
+{
+    public interface IUnitOfWork:IAsyncDisposable //async bir kodlama yaparız async olmasa Idisposaple olurdu.
+    {
+        public IRepository<T> GetRepository<T>() where T : class,IEntityBase,new();
+
+        Task<int> SaveAsync();
+        int Save();
+    }
+}
