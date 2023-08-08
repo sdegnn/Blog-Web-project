@@ -15,6 +15,11 @@ namespace Blog.Service.AutoMapper.Categories
         public CategoryProfile()
         {
             CreateMap<CategoryDto,Category>().ReverseMap(); //mapleme işlemi dependency injeciton
+            CreateMap<CategoryAddDto, Category>().ReverseMap();
+            CreateMap<CategoryUpdateDto, Category>().ReverseMap();
+            CreateMap<CategoryUpdateDto,CategoryDto>().ReverseMap();
+
+           
         }
     }
 }

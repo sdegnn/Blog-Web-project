@@ -85,26 +85,26 @@ namespace Blog.Service.Concreate
 
             if (articleUpdateDto.Photo != null)
             {
-                if (article.Image != null)
+                if (article.ImageId != null)
                 {
                     ımageHelper.Delete(article.Image.FileName);
                 }
+
                 
                 var imageUpload = await ımageHelper.Upload(articleUpdateDto.Title, articleUpdateDto.Photo, ImageType.Post);
                 Image image = new(imageUpload.FullName, articleUpdateDto.Photo.ContentType, userEmail);
                 await unitOfWork.GetRepository<Image>().AddAsync(image);
 
-                article.ImageId = image.Id;
 
-
-
-            }
-            mapper.Map(articleUpdateDto, article);
             article.Title = articleUpdateDto.Title;
             article.Content = articleUpdateDto.Content;
             article.CategoryId = articleUpdateDto.CategoryId;
             article.ModifiedDate = DateTime.Now;
             article.ModifiedBy = userEmail;
+            article.ImageId = image.Id;
+
+            }
+          
 
 
             await unitOfWork.GetRepository<Article>().UpdateAsync(article);

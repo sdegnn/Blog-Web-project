@@ -52,7 +52,7 @@ namespace Blog.Web.Areas.Admin.Controllers
             {
                 await articleService.CreateArticleAsync(articleAddDto);
                 toast.AddSuccessToastMessage(Messages.Article.Add(articleAddDto.Title), new ToastrOptions { Title=" İşlem Başarılı!"});
-                return RedirectToAction("Index", "Article", new {Area="Admin"});
+                return RedirectToAction("Index", "Article", new { Area = "Admin"});
             }
             else
             {
@@ -61,7 +61,7 @@ namespace Blog.Web.Areas.Admin.Controllers
             }
             //article servise gidip ekleme işlemi yapıcak olan kısım
             ////await articleService.CreateArticleAsync(articleAddDto);
-            RedirectToAction("Index", "Article", new { area = "Admin" }); //redirect yönlendirme yapar bu işlemi ındex article kısmında new leyerek oluşturur.
+            RedirectToAction("Index", "Article", new { Area = "Admin" }); //redirect yönlendirme yapar bu işlemi ındex article kısmında new leyerek oluşturur.
 
 
             var categories = await categoryService.GetAllCategoriesWithNonDeleted();

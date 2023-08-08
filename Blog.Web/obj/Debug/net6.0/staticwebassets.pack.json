@@ -21,12 +21,32 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\User\\source\\repos\\Blog.Web\\Blog.Web\\wwwroot\\images\\article-images\\imagedeneme2_162.png",
+      "PackagePath": "staticwebassets\\images\\article-images\\imagedeneme2_162.png"
+    },
+    {
       "Id": "C:\\Users\\User\\source\\repos\\Blog.Web\\Blog.Web\\wwwroot\\images\\article-images\\imagedeneme2_576.png",
       "PackagePath": "staticwebassets\\images\\article-images\\imagedeneme2_576.png"
     },
     {
+      "Id": "C:\\Users\\User\\source\\repos\\Blog.Web\\Blog.Web\\wwwroot\\images\\article-images\\imagedeneme2_90.png",
+      "PackagePath": "staticwebassets\\images\\article-images\\imagedeneme2_90.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Blog.Web\\Blog.Web\\wwwroot\\images\\article-images\\imagedeneme2_980.png",
+      "PackagePath": "staticwebassets\\images\\article-images\\imagedeneme2_980.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Blog.Web\\Blog.Web\\wwwroot\\images\\article-images\\imagedeneme2_997.jpeg",
+      "PackagePath": "staticwebassets\\images\\article-images\\imagedeneme2_997.jpeg"
+    },
+    {
       "Id": "C:\\Users\\User\\source\\repos\\Blog.Web\\Blog.Web\\wwwroot\\images\\article-images\\imagedeneme_194.png",
       "PackagePath": "staticwebassets\\images\\article-images\\imagedeneme_194.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Blog.Web\\Blog.Web\\wwwroot\\images\\article-images\\imagedeneme_47.png",
+      "PackagePath": "staticwebassets\\images\\article-images\\imagedeneme_47.png"
     },
     {
       "Id": "C:\\Users\\User\\source\\repos\\Blog.Web\\Blog.Web\\wwwroot\\images\\article-images\\imageuploadeddenemesi_277.png",
@@ -37,8 +57,16 @@
       "PackagePath": "staticwebassets\\images\\article-images\\imageuploadeddenemesi_85.png"
     },
     {
+      "Id": "C:\\Users\\User\\source\\repos\\Blog.Web\\Blog.Web\\wwwroot\\images\\article-images\\mnnom_679.jpeg",
+      "PackagePath": "staticwebassets\\images\\article-images\\mnnom_679.jpeg"
+    },
+    {
       "Id": "C:\\Users\\User\\source\\repos\\Blog.Web\\Blog.Web\\wwwroot\\js\\Article.js",
       "PackagePath": "staticwebassets\\js\\Article.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Blog.Web\\Blog.Web\\wwwroot\\js\\categoryIndex.js",
+      "PackagePath": "staticwebassets\\js\\categoryIndex.js"
     },
     {
       "Id": "C:\\Users\\User\\source\\repos\\Blog.Web\\Blog.Web\\wwwroot\\js\\site.js",
