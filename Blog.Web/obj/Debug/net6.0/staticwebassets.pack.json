@@ -65,6 +65,10 @@
       "PackagePath": "staticwebassets\\js\\Article.js"
     },
     {
+      "Id": "C:\\Users\\User\\source\\repos\\Blog.Web\\Blog.Web\\wwwroot\\js\\categoryAdd.js",
+      "PackagePath": "staticwebassets\\js\\categoryAdd.js"
+    },
+    {
       "Id": "C:\\Users\\User\\source\\repos\\Blog.Web\\Blog.Web\\wwwroot\\js\\categoryIndex.js",
       "PackagePath": "staticwebassets\\js\\categoryIndex.js"
     },
