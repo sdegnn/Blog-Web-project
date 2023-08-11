@@ -77,6 +77,10 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
+      "Id": "C:\\Users\\User\\source\\repos\\Blog.Web\\Blog.Web\\wwwroot\\js\\userIndex.js",
+      "PackagePath": "staticwebassets\\js\\userIndex.js"
+    },
+    {
       "Id": "C:\\Users\\User\\source\\repos\\Blog.Web\\Blog.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },

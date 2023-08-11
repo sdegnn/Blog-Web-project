@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SUn5VhTJEOE2j55rLZqutn5FdkbZAJRbyuqfJh/SaSA=",
+  "Hash": "M6D1pfKkCpWyACCD0pS4uU6l0wh3X9Lc/bFNKqCXmQI=",
   "Source": "Blog.Web",
   "BasePath": "_content/Blog.Web",
   "Mode": "Default",
@@ -389,6 +389,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\Blog.Web\\Blog.Web\\wwwroot\\js\\userIndex.js",
+      "SourceId": "Blog.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Blog.Web\\Blog.Web\\wwwroot\\",
+      "BasePath": "_content/Blog.Web",
+      "RelativePath": "js/userIndex.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\userIndex.js"
     },
     {
       "Identity": "C:\\Users\\User\\source\\repos\\Blog.Web\\Blog.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
