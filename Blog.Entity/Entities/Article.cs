@@ -30,7 +30,7 @@ namespace Blog.Entity.Entities
         public Guid CategoryId { get; set; }
         public Category Category { get; set; }
 
-        public Guid? ImageId { get; set; } //Null gelme ihtimali var ? koyduk
+        public Guid? ImageId { get; set; } = Guid.Parse("9EA0DE57-D220-4A26-810C-A3D11C3BC4A8");
 
         public Image Image { get; set; }
         public Guid UserId { get; set; } //bağlama işlemi

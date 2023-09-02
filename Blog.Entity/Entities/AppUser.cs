@@ -12,7 +12,7 @@ namespace Blog.Entity.Entities
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
-        public Guid ImageId { get; set; } //kullanıcımızın bir image olmasını da isteriz.bağlantı kurmak için.? koymamıza gerek kalmadı user tabloları oluşturulurken belli olmuşoluyor.
+        public Guid ImageId { get; set; } = Guid.Parse("9EA0DE57-D220-4A26-810C-A3D11C3BC4A8");
         public Image Image { get; set; } //bağlantı kurmak için
         public ICollection<Article> Articles { get; set;} //bağlantı kurmak için
 
